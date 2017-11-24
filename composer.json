@@ -1,0 +1,23 @@
+{
+  "name": "wumvi/core.model",
+  "type": "library",
+  "autoload": {
+    "psr-4": {
+      "Core\\Model\\": "src"
+    }
+  },
+  "require": {
+  },
+  "require-dev": {
+    "phpunit/phpunit": "*",
+    "squizlabs/php_codesniffer": "*"
+  },
+  "version": "1.0",
+  "authors": [
+	{
+		"name": "Kozlenko Vitaliy",
+		"role": "Developer"
+	}
+  ],
+  "license": "MIT"
+}
