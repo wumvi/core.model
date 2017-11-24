@@ -13,7 +13,7 @@
     "phpunit/phpunit": "*",
     "squizlabs/php_codesniffer": "*"
   },
-  "version": "1.0",
+  "version": "1.0.2",
   "authors": [
 	{
 		"name": "Kozlenko Vitaliy",
