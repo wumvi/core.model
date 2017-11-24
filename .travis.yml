@@ -7,7 +7,8 @@ before_script:
     - travis_retry composer self-update
     - travis_retry composer install --no-interaction --prefer-source --dev
 
-script: vendors/bin/phpunit
+script:
+    - vendor/bin/phpunit
 
 after_success:
     - bash <(curl -s https://codecov.io/bash)
